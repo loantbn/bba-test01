@@ -1,4 +1,4 @@
-# * 1. Git*
+#  1. Git
 - * 1.1 Undo actions *
 + Undo file đã sửa nhưng chưa add: 
 ```bash
@@ -66,8 +66,8 @@ node_modules/
 *.tmp
 * .txt
 ```
-# **2. Js basic **
-- ** 2.1 Convention **
+# 2. Js basic 
+-  2.1 Convention 
 + Đặt tên file & folder (kebab-case)
 ```bash
 login-page.js
@@ -88,7 +88,7 @@ class UserService {}
 class LoginPage {}
 ```
 * Note: snake_case → tránh dùng 
-- ** 2.2 Object **
+- 2.2 Object 
 + Khai báo object
 ```bash
 const user = {
@@ -102,7 +102,7 @@ const user = {
 console.log(user.name);      // An
 console.log(user["age"]);    // 20
 ```
-- ** 2.3 Function **
+- 2.3 Function 
 ```bash
 const calculator = {
   add(a, b) {
@@ -112,7 +112,7 @@ const calculator = {
 
 calculator.add(2, 3); // 5
 ```
-- ** 2.3 Arrary **
+- 2.3 Arrary 
 + Khai báo arrary
 ```bash
 const numbers = [1, 2, 3, 4];
@@ -129,7 +129,7 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
 ```
-- ** 2.4 Logical Operator (Toán tử logic) **
+-  2.4 Logical Operator (Toán tử logic) 
 + AND &&: Tất cả 2 vế mệnh đề đều đúng → true
 ```bash
 age > 18 && isStudent
